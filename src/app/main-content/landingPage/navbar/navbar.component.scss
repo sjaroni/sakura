@@ -1,0 +1,53 @@
+$main-color: #9e0907;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  > img {
+    height: 64px;
+    width: 64px;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 520px;
+    >a{
+      &:hover{
+        color: $main-color;
+      }
+    }
+  }
+}
+
+.phone_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: $main-color;
+  cursor: pointer;
+
+  &:hover{
+    transform: scale(1.02);
+    filter: brightness(1.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+
+  >img{
+    height: 24px;
+  }
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}

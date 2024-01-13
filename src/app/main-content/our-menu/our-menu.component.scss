@@ -1,0 +1,51 @@
+section {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./../../../assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  > h1 {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-size: 64px;
+    color: #9e0907;
+  }
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  >.dishes{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 40%;
+    
+    >img{
+      width: 25%;
+    }
+
+    h2{
+      font-size: 48px;
+    }
+
+    >div .prices{
+      color: rgba(92, 92, 93);
+      font-size: 32px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+  }
+
+}
